@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/textViewR1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#83D1ED"
+        android:drawableTop="@drawable/register_custom" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+
+
+        <EditText
+            android:id="@+id/editTextR1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_corner"
+            android:ems="10"
+            android:hint="Nhập Email "
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="301dp" />
+
+
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="370dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/rounded_corner"
+            android:ems="10"
+            android:hint="Nhập Mật Khẩu"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="440dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/rounded_corner"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Nhập họ và tên" />
+
+
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="70dp"
+        android:background="#3A5DB6"
+        android:gravity="center"
+        android:text="Đăng ký"
+        android:textColor="#B2D2DD"
+        android:textSize="30dp"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="650dp"
+        android:text="Đã có tài khoản? Đăng nhập" />
+</RelativeLayout>

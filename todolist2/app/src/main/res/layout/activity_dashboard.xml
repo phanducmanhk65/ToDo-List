@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Dashboard">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="325dp"
+        android:background="@color/white"
+        android:text="Thoát"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id='@+id/textView4'
+        android:layout_width="294dp"
+        android:layout_height="66dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="To Do List"
+        android:textColor="#DA1818"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginLeft="290dp"
+
+        android:text="Thêm"
+        android:textSize="20dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/riew"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="200dp"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
